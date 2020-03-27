@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Unos racuna</h1>
+    </header>
+    <main class="content">
+        <section>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Opis</th>
+                        <th scope="col">Osnovica</th>
+                        <th scope="col">Pdv</th>
+                        <th scope="col">Ukupno</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <form id="mainForm">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Opis" id="description" required>
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control" placeholder="Osnovica" id="mainPrice" required>
+                    </div>
+                    <div class="col">
+                        <input type="submit" class="btn btn-primary" value="Unesi">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="content">
+        <p>Copyright &copy; FERIT 2020</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
